@@ -1,0 +1,16 @@
+<%
+    iframeUid = "responsive-iframe-" + Math.floor(Math.random() * 100000000);
+    var isResultsMode = true;
+%>
+<div id="<%= iframeUid %>-container">
+</div>
+<%
+if (!scaffoldLite) {
+%>
+    <style>
+    <%= include("../scss/news_special/loading.css") %>
+    </style>
+<%
+}
+%>
+<script type="text/javascript"><%= include(debug === 'true' ? "../js/lib/news_special/iframemanager__host.js" : "../../tmp/iframemanager__host.js", {iframeUid: iframeUid, scaffoldLite: scaffoldLite}) %></script>

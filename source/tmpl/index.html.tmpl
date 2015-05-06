@@ -1,0 +1,20 @@
+<%= include('includes/top.tmpl') %>
+
+    <div class="main lang_<%= language %>">    
+        <%= include('includes/partySelect.tmpl') %>
+        <div id="map"></div>
+        <%= include('includes/mapKey.tmpl') %>
+    </div>
+
+    <script type="text/template" id="map_controls_template">
+    <%= include('includes/controls.tmpl') %>
+    </script>
+    <script type="text/template" id="panel_template">
+    <%= include('includes/panel.tmpl') %>
+    </script>
+    <script type="text/template" id="tooltip_template">
+    <%= include('includes/tooltip.tmpl') %>
+    </script>
+
+
+<%= include('includes/bottom.tmpl') %>

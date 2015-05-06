@@ -1,0 +1,128 @@
+.map-wrapper{
+	position: relative;
+	overflow: hidden;
+	-webkit-transform: translateZ(0);
+	-webkit-perspective: 1000;
+	-webkit-backface-visibility: hidden;
+	border: 1px solid #bfbfbf;
+}
+
+.main-map--container{
+	display: inline-block;
+	position: relative;
+	height: 0;
+	width: 100%;
+	padding-bottom: 111.3%;
+	vertical-align: middle;
+	-webkit-tap-highlight-color: rgba(0,0,0,0); 
+	overflow: hidden;
+	-webkit-transform: translateZ(0);
+	-webkit-perspective: 1000;
+	-webkit-backface-visibility: hidden;
+
+	.main-map--svg{
+		display: inline-block;
+		position: absolute;
+		background-color: #fff;
+		top: 0;
+		left: 0;
+		-webkit-transform: translateZ(0);
+		-webkit-perspective: 1000;
+		-webkit-backface-visibility: hidden;
+		.repIre-svg{
+			overflow: visible;
+		}
+
+		.constituency-path{
+			fill: #fff;
+            transition: fill 0.5s;			
+            stroke: #ccc;
+			stroke-width: 0.05;
+			cursor: pointer;
+		}
+		.outline-path{
+			fill: #fff;
+			fill-opacity: .5;
+		}
+		.constituency-path__campaign:hover{
+			fill: #e3e9f1;
+		}
+		.constituency-path__selected, .constituency-path__selected:hover{
+			fill: #f2f1f1;
+		}
+		.constituency-path__selected--campaign, .constituency-path__selected--campaign:hover{
+            cursor: initial;
+			stroke-width: 0.15;
+            stroke: #505050;
+		}
+		.constituency-path__selected--results, .constituency-path__selected--results:hover{
+			cursor: initial;
+			stroke-width: 0.15;
+            stroke: #505050
+		}
+		.constituency-path__selected--results__no-result, .constituency-path__selected--results__no-result:hover{
+			stroke-width: 0.07;
+		}
+		.shetland--pullout{
+			-webkit-transform: translateZ(0);
+			-webkit-perspective: 1000;
+			-webkit-backface-visibility: hidden;
+			.shetland-pullout--box{
+				stroke: #ccc;
+                stroke-width: 1;
+				fill: #fff;
+			}
+		}
+		.shetland--pullout:hover{
+			cursor: pointer;
+			.constituency-path{
+				fill: #f2f1f1;
+			}
+		}
+	}
+}
+
+.non-interactive .main-map--svg{
+	.constituency-path, .shetland--pullout, .shetland--pullout .shetland-pullout--box{
+		cursor: initial;
+	}
+
+	.constituency-path:hover, .shetland--pullout .constituency-path, .shetland--pullout:hover .constituency-path{
+		fill: #fff;
+	}
+}
+
+.map-key{
+    display: none;
+    margin-top: 15px;
+}
+
+.map-key-party-percentages {
+    list-style: none;
+    margin: 0 auto 52px auto;
+    padding: 10px 0 0 32px;;
+    width: 100%;
+
+    li {
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 15%;
+        text-align: right;
+        transition: 0.5s background-color;
+        position: relative;
+        height: 20px;
+
+        span {
+            right: -1.5em;
+            top: 1.5em;
+            position: absolute;
+            opacity: 1;
+        }
+
+        .first-label {
+            left: 0;
+            right: auto;
+        }
+    }
+}

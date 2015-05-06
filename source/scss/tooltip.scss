@@ -1,0 +1,39 @@
+.map-tooltip {
+    pointer-events: none;
+    max-width: 200px;
+    min-height: 14px;
+    position: absolute;
+    font: 12px Arial, sans-serif;
+    padding: 5px 12px;
+    border: 1px solid #333;
+    background: #fff;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    display: none;
+    z-index: 1000;
+    opacity: .86;
+    word-wrap: break-word;
+
+    -webkit-transform: translateZ(0);
+    -webkit-perspective: 1000;
+    -webkit-backface-visibility: hidden;
+    
+    .tooltip-status{
+        display: none;
+        margin-top: 3px;
+
+        .party-colour{
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            margin-right: 5px;
+            vertical-align: middle;
+        }
+
+        .status-text{
+            vertical-align: middle;       
+        }
+        
+    }
+}

@@ -1,0 +1,15 @@
+@import "news_special/defaults";
+@import "app";
+@import "map";
+@import "locator";
+@import "map-controls";
+@import "panel";
+@import "tooltip";
+@import "partySelect";
+@import "cymru";
+
+.main{
+	padding: 0;
+	margin: auto;
+	max-width: 600px;
+}

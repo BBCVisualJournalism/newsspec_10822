@@ -1,0 +1,11 @@
+/* CUSTOM STYLES FOR WELSH */
+.lang_cymru{
+	.main-map--container .main-map--svg{
+		.constituency-path__selected--campaign, .constituency-path__selected--campaign:hover{
+			stroke-width: 0.28;
+		}
+		.constituency-path__selected--results, .constituency-path__selected--results:hover{
+			stroke-width: 0.6;
+		}
+	}
+}

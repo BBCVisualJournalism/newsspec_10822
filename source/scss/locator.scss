@@ -1,0 +1,35 @@
+.locator-map--container{
+	-webkit-transform: translateZ(0);
+	-webkit-perspective: 1000;
+	-webkit-backface-visibility: hidden;
+	display: none;
+	float: right;
+	box-sizing: initial;
+	position: relative;
+	width: 20%;
+	padding-bottom: 22.4166666%;
+	top: 8px;
+	right: 8px;
+	overflow: hidden;
+	background-color: #fff;
+	border: 1px solid #333;
+
+	.locator-map--svg{
+		display: inline-block;
+		position: absolute;
+		top: 0;
+		left: 0;
+
+		.constituency-path{
+			fill-opacity: 1;
+			fill: #fff;
+		}
+
+		.locator-box {
+			display: block;
+			fill: transparent;
+			stroke: #333;
+			stroke-width: 1px;
+		}
+	}
+}

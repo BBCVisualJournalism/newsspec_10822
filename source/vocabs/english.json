@@ -1,0 +1,12 @@
+{
+    "language": "english",
+    "controls_reset": "Reset",
+    "controls_up": "Up",
+    "controls_down": "Down",
+    "controls_left": "Left",
+    "controls_right": "Right",
+    "": "West",
+    "panel_default_message": "Find out who is standing in this constituency",
+    "panel_results_default_message": "Awaiting results",
+    "panel_url": "/news/politics/constituencies/{GSSID}"
+}

@@ -1,0 +1,12 @@
+{
+    "language": "cymru",
+    "controls_reset": "Ailosod",
+    "controls_up": "I fyny",
+    "controls_down": "I lawr",
+    "controls_left": "Chwith",
+    "controls_right": "Dde",
+    "": "Gorllewin",
+    "panel_default_message": "Pwy sy`n sefyll yn yr etholaeth hon",
+    "panel_results_default_message": "",
+    "panel_url": "/cymrufyw/gwleidyddiaeth/etholaethau/{GSSID}"
+}

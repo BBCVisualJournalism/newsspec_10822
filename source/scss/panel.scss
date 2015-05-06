@@ -1,0 +1,48 @@
+$panelOffset: 100px;
+
+.map-panel{
+	position: absolute;
+	bottom: -($panelOffset);
+	transition: bottom 0.9s;
+	left: 0;
+	right: 0;
+	background-color: rgba(29,30,28,.85);
+	padding: 8px 0 11px 10px;
+	-webkit-transform: translateZ(0);
+	-webkit-perspective: 1000;
+	-webkit-backface-visibility: hidden;
+	
+	.panel-title{
+		display: block;
+		font: bold 14px Arial;
+		color: #FFF;
+		text-decoration: underline;
+
+		.panel--arrow{
+			color: #FFF;
+		}
+
+		&:hover{
+			text-decoration: underline;
+		}
+	}
+    
+    .strength-string{
+        margin-top: 5px;
+        font: 14px Arial;
+        color: #FFF;
+    }
+   
+    .panel-result{
+		margin-top: 5px;
+		font: 14px Arial;
+		color: #FFF;
+
+		.panel-result--party-colour{
+			display: inline-block;
+			width: 17px;
+			height: 12px;
+			margin-right: 6px;
+		}
+	}
+}
