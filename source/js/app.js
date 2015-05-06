@@ -82,6 +82,8 @@ define([
                 mapContainer = container.find('#map'),
                 mapModel = new MapModel(config);
 
+            container.show();
+
             new MapKey({mapModel: mapModel});
             mapModel.set('constituencyNames', new ConstituencyNamesModel(constituencyNames));
             
