@@ -44,7 +44,7 @@ define([
             if (constituencyName) {
                 var tooltipText = constituencyName;
                 if (constData && constData.turnoutPercent) {
-                    tooltipText += ' (' + constData.turnoutPercent + '%)';
+                    tooltipText += ' (' + Math.round(constData.turnoutPercent) + '%)';
                 }
                     
                 if (this.constText !== tooltipText) {

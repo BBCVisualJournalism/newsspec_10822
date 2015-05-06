@@ -34,16 +34,15 @@ define([
         updateResults: function (gssid) {
             var constituencyData = this.dataFeed.get(gssid);
             if (constituencyData) {
-                var partyData = constituencyData.parties[this.mapModel.get('selectedParty')];
-                if (partyData) {
-                    var votesNow = Math.round(partyData.shareNow),
-                        shareChangeSymbol = (partyData.shareChange < 0) ? '-' : '+',
-                        voteChange = Math.abs(Math.round(partyData.shareChange)),
-                        voteChangeText = (voteChange > 0) ? shareChangeSymbol + voteChange + '%'  : 'no change';
+                if (constituencyData.turnoutPercent && constituencyData.turnoutPercentChange) {
+                    var turnoutNow = Math.round(constituencyData.turnoutPercent),
+                        turnoutChangeSymbol = (constituencyData.turnoutPercentChange < 0) ? '-' : '+',
+                        turnoutChange = Math.abs(Math.round(constituencyData.turnoutPercentChange)),
+                        turnoutChangeText = (turnoutChange > 0) ? turnoutChangeSymbol  + turnoutChange + '%'  : 'no change';
 
-                    this.resultsStrengthMessage.text(votesNow + '% of votes (' + voteChangeText + ' from 2010)');
+                    this.resultsStrengthMessage.text(turnoutNow + '% turnout (' + turnoutChangeText + ' from 2010)');
                 } else {
-                    this.resultsStrengthMessage.text('No candidate');
+                    this.resultsStrengthMessage.text('Awaiting result');
                 }
 
                 if (constituencyData.winningCode && constituencyData.bannerMessage) {

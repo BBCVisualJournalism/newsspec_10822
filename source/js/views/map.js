@@ -74,9 +74,8 @@ define([
                 .style('fill', function (d) {
                     var constituencyData = _this.dataFeed.get(d.properties.constituency_gssid);
                     if (constituencyData) {
-                        var partyData = constituencyData.parties[_this.mapModel.get('selectedParty')];
-                        if (partyData && partyData.shareNow) {
-                            return _this.partyColours.getPartyColourFromPercentage(_this.mapModel.get('selectedParty'), partyData.shareNow) || '#FFF';
+                        if (constituencyData.turnoutPercent) {
+                            return _this.partyColours.getColoursFromPercent(constituencyData.turnoutPercent) || '#FFF';
                         }
                         return '#FFF';
                     }
@@ -293,9 +292,8 @@ define([
                 .style('fill', function () {
                     var constituencyData = _this.dataFeed.get(shetlandGssid);
                     if (constituencyData) {
-                        var partyData = constituencyData.parties[_this.mapModel.get('selectedParty')];
-                        if (partyData && partyData.shareNow) {
-                            return _this.partyColours.getPartyColourFromPercentage(_this.mapModel.get('selectedParty'), partyData.shareNow) || '#FFF';
+                        if (constituencyData && constituencyData.turnoutPercent) {
+                            return _this.partyColours.getColoursFromPercent(constituencyData.turnoutPercent) || '#FFF';
                         }
                         return '#FFF';
                     }
@@ -472,9 +470,8 @@ define([
                 constPath.css('fill', function () {
                     var constituencyData = _this.dataFeed.get(constPath.data('gssid'));
                     if (constituencyData) {
-                        var partyData = constituencyData.parties[_this.mapModel.get('selectedParty')];
-                        if (partyData && partyData.shareNow) {
-                            return _this.partyColours.getPartyColourFromPercentage(_this.mapModel.get('selectedParty'), partyData.shareNow) || '#FFF';
+                        if (constituencyData && constituencyData.turnoutPercent) {
+                            return _this.partyColours.getColoursFromPercent(constituencyData.turnoutPercent) || '#FFF';
                         }
                         return '#FFF';
                         
