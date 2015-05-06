@@ -43,11 +43,8 @@ define([
             constData = this.dataFeed.get(data.properties.constituency_gssid);
             if (constituencyName) {
                 var tooltipText = constituencyName;
-                if (constData) {
-                    var partyData = constData.parties[this.mapModel.get('selectedParty')];
-                    if (partyData && partyData.shareNow) {
-                        tooltipText += ' (' + Math.round(partyData.shareNow) + '%)';
-                    }
+                if (constData && constData.turnoutPercent) {
+                    tooltipText += ' (' + constData.turnoutPercent + '%)';
                 }
                     
                 if (this.constText !== tooltipText) {

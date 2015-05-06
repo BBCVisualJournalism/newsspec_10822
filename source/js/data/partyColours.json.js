@@ -1,12 +1,6 @@
 define(function(){
-	return {
-        "CON":["#d0e3f1","#a9cce6","#83b6da","#5ea0d0","#388ac4","#1273b9"],
-        "LAB":["#fad2d1","#f6aeac","#f18a88","#ed6664","#e9423f","#e51e1a"],
-        "LD":["#fce6d0","#fad2aa","#f8be84","#f6ab5f","#f39739","#f18313"],
-        "SNP":['#ebe0c4', '#ebd7a3', '#eacd82', '#eac663', '#e8bb3f', '#e8b312'],
-        "GRN":["#e5f1d5","#d0e6b3","#bbda90","#a6d06f","#91c44d","#7cb92b"],
-        "UKIP": ['#e3d5e7', '#ccb4d4', '#b593c1', '#9f72ae', '#89509b', '#722f88'],
-        "PC":["#dcecd6","#c0ddb6","#a3cd95","#88bf75","#6baf55","#4fa034"],
+    return {
+        "TURNOUT": ['#cddbdb', '#a6bebe', '#7ea2a2', '#578686', '#2f6969', '#074c4c'],
 
 
         /* English */

@@ -9,8 +9,7 @@ define([
             this.partyColours = this.mapModel.get('partyColours');
             this.setElement($('.map-key'));
 
-            this.updateKeyColours(this.mapModel.get('selectedParty'));
-            news.pubsub.on('partySelection:changed', this.updateKeyColours.bind(this));
+            this.updateKeyColours('TURNOUT');
         },
         
         updateKeyColours: function (party) {

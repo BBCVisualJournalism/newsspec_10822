@@ -5,12 +5,11 @@ define([
     'backbone',
     'models/map',
     'views/mapWrapper',
-    'views/partySelection',
     'views/mapKey',
     'data/uk.topojson',
     'data/constituencyNamesEnglish.json.js',
     'models/constituencyNames'
-], function (news, iframeManager, Topojson, Backbone, MapModel, MapWrapper, PartySelection, MapKey, mapTopoJson, constituencyNames, ConstituencyNamesModel) {
+], function (news, iframeManager, Topojson, Backbone, MapModel, MapWrapper, MapKey, mapTopoJson, constituencyNames, ConstituencyNamesModel) {
     /* Values passed from parent on load. (Query string) */
     var parentWidth = iframeManager.getValueFromQueryString('parentWidth');
         
@@ -83,7 +82,6 @@ define([
                 mapContainer = container.find('#map'),
                 mapModel = new MapModel(config);
 
-            new PartySelection({mapModel: mapModel});
             new MapKey({mapModel: mapModel});
             mapModel.set('constituencyNames', new ConstituencyNamesModel(constituencyNames));
             
