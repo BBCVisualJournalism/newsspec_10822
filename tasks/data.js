@@ -97,6 +97,25 @@ module.exports = function (grunt) {
                  *              shareChange : uint
                  *          }
                 */
+
+
+                /*
+                 * The output json schema should look like this:
+                {
+                    "E001465234": {
+                        "turnoutPercent": 16.464,
+                        "turnoutPercentChange": 5,
+                        "winningCode": "LAB",
+                        "bannerMessage": "LAB GAIN FROM CON"
+                    },
+                    "E001465234": {
+                        "turnoutPercent": 16.464,
+                        "turnoutPercentChange": 5,
+                        "winningCode": "LAB",
+                        "bannerMessage": "LAB GAIN FROM CON"
+                    }
+                }
+                */
                 var constituencyObj = inputjsonArr[a];
                 if (validateConstituencyObj(constituencyObj)) {
                     var constituencyId = constituencyObj.constituency.region.gssId,
@@ -105,31 +124,10 @@ module.exports = function (grunt) {
                     outputJsonObj[constituencyId] = {};
                     var outputConstituencyObj = outputJsonObj[constituencyId];
 
+                    outputConstituencyObj.turnoutPercent = constituencyObj.turnout.percentage;
+                    outputConstituencyObj.turnoutPercentChange = constituencyObj.turnout.percentageChange;
                     outputConstituencyObj.winningCode = constituencyObj.newPartyCode;
                     outputConstituencyObj.bannerMessage = constituencyObj.resultBanner;
-                    outputConstituencyObj.parties = {};
-
-                    var b, partiesArrLength = partiesArr.length;
-                    for (b = 0; b < partiesArrLength; b++) {
-                        var partyCode = partiesArr[b].candidate.party.code;
-
-                        /*
-                         * check for the speakers seat (he's a Tory but doesn't show up as one in the results)
-                         * The speakers party code will show up as "SPE" ... change it to "CON"
-                        */
-                        if (partyCode == "SPE") {
-                            partyCode = "CON";
-                        }
-
-                        if (filteredPartyIdsLookup[partyCode]) {
-                            outputConstituencyObj.parties[partyCode] = {};
-
-                            outputParty = outputConstituencyObj.parties[partyCode];
-                            
-                            outputParty.shareNow = partiesArr[b].shareNow;
-                            outputParty.shareChange = partiesArr[b].shareChange;
-                        }
-                    }
                 }
                 else {
                     console.log("WARNING!: One of the constituencies was not recognised from the input json. index:", a);
