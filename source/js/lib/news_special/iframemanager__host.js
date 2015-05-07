@@ -37,6 +37,9 @@
 
         createIframe: function () {
 
+            var noSVGH2El = document.getElementById('10838NoSVG');
+            noSVGH2El.style.display = 'none';
+
             var linkId        = this.linkId,
                 href          = '<%= path %>/<%= vocab_dir %>/index.html?v=<%= version %>',
                 iframeWatcher = this,
