@@ -37,7 +37,7 @@
 
         createIframe: function () {
 
-            var noSVGH2El = document.getElementById('10838NoSVG');
+            var noSVGH2El = document.getElementById('10822NoSVG');
             noSVGH2El.style.display = 'none';
 
             var linkId        = this.linkId,
