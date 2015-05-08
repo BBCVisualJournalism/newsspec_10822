@@ -19,21 +19,20 @@ define([
         'bounds': [[-300, -400], [775, 575]],
         'pulloutShetland': true,
         'locator': true,
-        'tooltip': true,
-        'interactive': (parentWidth > 700)
+        'tooltip': true
     };
 
     var Router = Backbone.Router.extend({
         routes: {
-            'nation/:nation': 'nation',
-            'constituency/:gssid': 'constituency',
+            'nation/:nation/:parentWidth': 'nation',
+            'constituency/:gssid/:parentWidth': 'constituency',
             '*default': 'ukMap'
         },
 
-        ukMap: function () {
-            this.loadMap(mapConfig);
+        ukMap: function (parentWidth) {
+            this.loadMap(mapConfig, parentWidth);
         },
-        nation: function (nation) {
+        nation: function (nation, parentWidth) {
             var nationInfo;
             if (nation === 'england') {
                 nationInfo = {
@@ -61,19 +60,20 @@ define([
                 };
             }
 
-            this.loadMap(_.extend(mapConfig, nationInfo));
+            this.loadMap(_.extend(mapConfig, nationInfo), parentWidth);
         },
-        constituency: function (constituency) {
+        constituency: function (constituency, parentWidth) {
             var constituencyInfo = {
                 'gssid': constituency
             };
 
-            this.loadMap(_.extend(mapConfig, constituencyInfo));
+            this.loadMap(_.extend(mapConfig, constituencyInfo), parentWidth);
         },
 
-        loadMap: function (config) {
+        loadMap: function (config, parentWidth) {
             var features = Topojson.feature(mapTopoJson, mapTopoJson.objects['boundaries']).features;
             config.features = features;
+            config.interactive =  (parentWidth > 700);
 
             this.addMapWrapper(config);
         },

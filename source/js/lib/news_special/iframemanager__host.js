@@ -46,12 +46,14 @@
                 hostId        = this.getWindowLocationOrigin(),
                 route         = this.getQueryStringValue('route'),
                 qsRouteHash   = (route) ? '#' + route : null,
-                urlParams     = qsRouteHash || window.location.hash || '',
+                urlParams     = qsRouteHash || window.location.hash || '#',
                 hostUrl       = encodeURIComponent(window.location.href.replace(urlParams, '')),
                 onBBC         = this.onBbcDomain(),
                 viewportWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0),
                 container     = document.getElementById('<%= iframeUid %>-container');
             
+            urlParams += '/' + viewportWidth;
+
             this.staticHeight = 600;
             this.addLoadingSpinner(container, linkId);
             this.container = container;
@@ -66,7 +68,7 @@
 
             this.decideHowToTalkToIframe(href);
 
-            this.elm.src = href + '&hostid=' + hostId.split('//')[1] + '&hostUrl=' + hostUrl + '&iframeUID=' + linkId + '&parentWidth=' + viewportWidth + '&onbbcdomain=' + onBBC + urlParams;
+            this.elm.src = href + '&hostid=' + hostId.split('//')[1] + '&hostUrl=' + hostUrl + '&iframeUID=' + linkId + '&onbbcdomain=' + onBBC + urlParams;
 
             container.appendChild(this.elm);
 
