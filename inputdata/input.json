@@ -1814,9 +1814,9 @@
         "altName" : "Plaid Werdd",
         "altCode" : "GRDd"
       },
-      "firstName" : "StÃ¶rm",
+      "firstName" : "Störm",
       "lastName" : "Poorun",
-      "fullName" : "StÃ¶rm Poorun"
+      "fullName" : "Störm Poorun"
     },
     "votesNow" : 2429,
     "shareNow" : 5.65897083,
@@ -7409,9 +7409,9 @@
         "name" : "Sinn Fein",
         "shortName" : "Sinn Fein"
       },
-      "firstName" : "DaithÃ­",
+      "firstName" : "Daithí",
       "lastName" : "McKay",
-      "fullName" : "DaithÃ­ McKay"
+      "fullName" : "Daithí McKay"
     },
     "votesNow" : 5143,
     "shareNow" : 12.2724133,
@@ -7510,6 +7510,124 @@
     "votesNow" : 57,
     "shareNow" : 0.136014998,
     "shareChange" : 0.136014998
+  } ]
+}, {
+  "constituency" : {
+    "region" : {
+      "name" : "Berwick-upon-Tweed",
+      "shortName" : "Berwick-upon-Tweed",
+      "gssId" : "E14000554"
+    },
+    "partyCodeLast" : "LD",
+    "electorate" : 58098
+  },
+  "newPartyCode" : "CON",
+  "resultBanner" : "CON GAIN FROM LD",
+  "majorityNow" : 4914,
+  "majorityPctNow" : 12.156446,
+  "turnout" : {
+    "count" : 40423,
+    "percentage" : 69.5772629,
+    "percentageChange" : 1.63743103
+  },
+  "results" : [ {
+    "candidate" : {
+      "candidateId" : 1224,
+      "party" : {
+        "code" : "CON",
+        "name" : "Conservative",
+        "shortName" : "Conservative",
+        "altName" : "Ceidwadwyr",
+        "altCode" : "CEID"
+      },
+      "firstName" : "Anne-Marie",
+      "lastName" : "Trevelyan",
+      "fullName" : "Anne-Marie Trevelyan"
+    },
+    "votesNow" : 16603,
+    "shareNow" : 41.0731506,
+    "shareChange" : 4.3500309
+  }, {
+    "candidate" : {
+      "candidateId" : 1226,
+      "party" : {
+        "code" : "LD",
+        "name" : "Liberal Democrat",
+        "shortName" : "Lib Dem",
+        "altName" : "Democratiaid Rhyddfrydol",
+        "altCode" : "DRh"
+      },
+      "firstName" : "Julie",
+      "lastName" : "Pörksen",
+      "fullName" : "Julie Pörksen"
+    },
+    "votesNow" : 11689,
+    "shareNow" : 28.9167061,
+    "shareChange" : -14.8045149
+  }, {
+    "candidate" : {
+      "candidateId" : 1225,
+      "party" : {
+        "code" : "LAB",
+        "name" : "Labour",
+        "shortName" : "Labour",
+        "altName" : "Llafur",
+        "altCode" : "LLAF"
+      },
+      "firstName" : "Scott",
+      "lastName" : "Dickinson",
+      "fullName" : "Scott Dickinson"
+    },
+    "votesNow" : 6042,
+    "shareNow" : 14.9469357,
+    "shareChange" : 1.78062105
+  }, {
+    "candidate" : {
+      "candidateId" : 3315,
+      "party" : {
+        "code" : "UKIP",
+        "name" : "UKIP",
+        "shortName" : "UKIP"
+      },
+      "firstName" : "Nigel",
+      "lastName" : "Coghill-Marshall",
+      "fullName" : "Nigel Coghill-Marshall"
+    },
+    "votesNow" : 4513,
+    "shareNow" : 11.1644363,
+    "shareChange" : 7.93074083
+  }, {
+    "candidate" : {
+      "candidateId" : 3198,
+      "party" : {
+        "code" : "GRN",
+        "name" : "Green Party",
+        "shortName" : "Green",
+        "altName" : "Plaid Werdd",
+        "altCode" : "GRDd"
+      },
+      "firstName" : "Rachael",
+      "lastName" : "Roberts",
+      "fullName" : "Rachael Roberts"
+    },
+    "votesNow" : 1488,
+    "shareNow" : 3.68107295,
+    "shareChange" : 3.68107295
+  }, {
+    "candidate" : {
+      "candidateId" : 5454,
+      "party" : {
+        "code" : "ED",
+        "name" : "English Democrats",
+        "shortName" : "Eng Dem"
+      },
+      "firstName" : "Neil",
+      "lastName" : "Humphrey",
+      "fullName" : "Neil Humphrey"
+    },
+    "votesNow" : 88,
+    "shareNow" : 0.217697993,
+    "shareChange" : 0.217697993
   } ]
 }, {
   "constituency" : {
@@ -8840,7 +8958,7 @@
     "region" : {
       "name" : "Gower",
       "shortName" : "Gower",
-      "altName" : "GÅµyr",
+      "altName" : "Gŵyr",
       "gssId" : "W07000046"
     },
     "partyCodeLast" : "LAB",
@@ -10225,6 +10343,109 @@
 }, {
   "constituency" : {
     "region" : {
+      "name" : "Gravesham",
+      "shortName" : "Gravesham",
+      "gssId" : "E14000715"
+    },
+    "partyCodeLast" : "CON",
+    "electorate" : 74307
+  },
+  "newPartyCode" : "CON",
+  "resultBanner" : "CON HOLD",
+  "majorityNow" : 8370,
+  "majorityPctNow" : 16.693592,
+  "turnout" : {
+    "count" : 50139,
+    "percentage" : 67.4754715,
+    "percentageChange" : 0.0874819979
+  },
+  "results" : [ {
+    "candidate" : {
+      "candidateId" : 5236,
+      "party" : {
+        "code" : "CON",
+        "name" : "Conservative",
+        "shortName" : "Conservative",
+        "altName" : "Ceidwadwyr",
+        "altCode" : "CEID"
+      },
+      "firstName" : "Adam",
+      "lastName" : "Holloway",
+      "fullName" : "Adam Holloway"
+    },
+    "votesNow" : 23484,
+    "shareNow" : 46.8377914,
+    "shareChange" : -1.69190097
+  }, {
+    "candidate" : {
+      "candidateId" : 2134,
+      "party" : {
+        "code" : "LAB",
+        "name" : "Labour",
+        "shortName" : "Labour",
+        "altName" : "Llafur",
+        "altCode" : "LLAF"
+      },
+      "firstName" : "Tan",
+      "lastName" : "Dhesi",
+      "fullName" : "Tan Dhesi"
+    },
+    "votesNow" : 15114,
+    "shareNow" : 30.1441994,
+    "shareChange" : 1.30036199
+  }, {
+    "candidate" : {
+      "candidateId" : 2683,
+      "party" : {
+        "code" : "UKIP",
+        "name" : "UKIP",
+        "shortName" : "UKIP"
+      },
+      "firstName" : "Sean",
+      "lastName" : "Marriott",
+      "fullName" : "Sean Marriott"
+    },
+    "votesNow" : 9306,
+    "shareNow" : 18.5604019,
+    "shareChange" : 13.7721224
+  }, {
+    "candidate" : {
+      "candidateId" : 2682,
+      "party" : {
+        "code" : "GRN",
+        "name" : "Green Party",
+        "shortName" : "Green",
+        "altName" : "Plaid Werdd",
+        "altCode" : "GRDd"
+      },
+      "firstName" : "Mark",
+      "lastName" : "Lindop",
+      "fullName" : "Mark Lindop"
+    },
+    "votesNow" : 1124,
+    "shareNow" : 2.24176788,
+    "shareChange" : 0.814796984
+  }, {
+    "candidate" : {
+      "candidateId" : 5558,
+      "party" : {
+        "code" : "LD",
+        "name" : "Liberal Democrat",
+        "shortName" : "Lib Dem",
+        "altName" : "Democratiaid Rhyddfrydol",
+        "altCode" : "DRh"
+      },
+      "firstName" : "Anne-Marie",
+      "lastName" : "Bunting",
+      "fullName" : "Anne-Marie Bunting"
+    },
+    "votesNow" : 1111,
+    "shareNow" : 2.2158401,
+    "shareChange" : -11.0877562
+  } ]
+}, {
+  "constituency" : {
+    "region" : {
       "name" : "Corby",
       "shortName" : "Corby",
       "gssId" : "E14000648"
@@ -10578,9 +10799,9 @@
         "altName" : "Llafur",
         "altCode" : "LLAF"
       },
-      "firstName" : "LÃ©onie",
+      "firstName" : "Léonie",
       "lastName" : "Mathers",
-      "fullName" : "LÃ©onie Mathers"
+      "fullName" : "Léonie Mathers"
     },
     "votesNow" : 18186,
     "shareNow" : 35.8712387,
@@ -12033,6 +12254,109 @@
     "votesNow" : 125,
     "shareNow" : 0.290205002,
     "shareChange" : 0.290205002
+  } ]
+}, {
+  "constituency" : {
+    "region" : {
+      "name" : "Warwick & Leamington",
+      "shortName" : "Warwick & Leamington",
+      "gssId" : "E14001019"
+    },
+    "partyCodeLast" : "CON",
+    "electorate" : 71570
+  },
+  "newPartyCode" : "CON",
+  "resultBanner" : "CON HOLD",
+  "majorityNow" : 6606,
+  "majorityPctNow" : 13.060240,
+  "turnout" : {
+    "count" : 50581,
+    "percentage" : 70.6734695,
+    "percentageChange" : -1.64511704
+  },
+  "results" : [ {
+    "candidate" : {
+      "candidateId" : 1032,
+      "party" : {
+        "code" : "CON",
+        "name" : "Conservative",
+        "shortName" : "Conservative",
+        "altName" : "Ceidwadwyr",
+        "altCode" : "CEID"
+      },
+      "firstName" : "Chris",
+      "lastName" : "White",
+      "fullName" : "Chris White"
+    },
+    "votesNow" : 24249,
+    "shareNow" : 47.9409256,
+    "shareChange" : 5.36464882
+  }, {
+    "candidate" : {
+      "candidateId" : 1033,
+      "party" : {
+        "code" : "LAB",
+        "name" : "Labour",
+        "shortName" : "Labour",
+        "altName" : "Llafur",
+        "altCode" : "LLAF"
+      },
+      "firstName" : "Lynnette",
+      "lastName" : "Kelly",
+      "fullName" : "Lynnette Kelly"
+    },
+    "votesNow" : 17643,
+    "shareNow" : 34.8806877,
+    "shareChange" : -0.530882001
+  }, {
+    "candidate" : {
+      "candidateId" : 3185,
+      "party" : {
+        "code" : "UKIP",
+        "name" : "UKIP",
+        "shortName" : "UKIP"
+      },
+      "firstName" : "Alastair",
+      "lastName" : "MacBrayne",
+      "fullName" : "Alastair MacBrayne"
+    },
+    "votesNow" : 4183,
+    "shareNow" : 8.26990414,
+    "shareChange" : 6.38134098
+  }, {
+    "candidate" : {
+      "candidateId" : 4194,
+      "party" : {
+        "code" : "LD",
+        "name" : "Liberal Democrat",
+        "shortName" : "Lib Dem",
+        "altName" : "Democratiaid Rhyddfrydol",
+        "altCode" : "DRh"
+      },
+      "firstName" : "Haseeb",
+      "lastName" : "Arif",
+      "fullName" : "Haseeb Arif"
+    },
+    "votesNow" : 2512,
+    "shareNow" : 4.9662919,
+    "shareChange" : -13.3421602
+  }, {
+    "candidate" : {
+      "candidateId" : 3999,
+      "party" : {
+        "code" : "GRN",
+        "name" : "Green Party",
+        "shortName" : "Green",
+        "altName" : "Plaid Werdd",
+        "altCode" : "GRDd"
+      },
+      "firstName" : "Azzees",
+      "lastName" : "Minott",
+      "fullName" : "Azzees Minott"
+    },
+    "votesNow" : 1994,
+    "shareNow" : 3.94219208,
+    "shareChange" : 2.5288291
   } ]
 }, {
   "constituency" : {
@@ -13849,6 +14173,109 @@
 }, {
   "constituency" : {
     "region" : {
+      "name" : "Birkenhead",
+      "shortName" : "Birkenhead",
+      "gssId" : "E14000559"
+    },
+    "partyCodeLast" : "LAB",
+    "electorate" : 62438
+  },
+  "newPartyCode" : "LAB",
+  "resultBanner" : "LAB HOLD",
+  "majorityNow" : 20652,
+  "majorityPctNow" : 52.759044,
+  "turnout" : {
+    "count" : 39144,
+    "percentage" : 62.6925926,
+    "percentageChange" : 6.42158318
+  },
+  "results" : [ {
+    "candidate" : {
+      "candidateId" : 4435,
+      "party" : {
+        "code" : "LAB",
+        "name" : "Labour",
+        "shortName" : "Labour",
+        "altName" : "Llafur",
+        "altCode" : "LLAF"
+      },
+      "firstName" : "Frank",
+      "lastName" : "Field",
+      "fullName" : "Frank Field"
+    },
+    "votesNow" : 26468,
+    "shareNow" : 67.6170044,
+    "shareChange" : 5.10249519
+  }, {
+    "candidate" : {
+      "candidateId" : 1387,
+      "party" : {
+        "code" : "CON",
+        "name" : "Conservative",
+        "shortName" : "Conservative",
+        "altName" : "Ceidwadwyr",
+        "altCode" : "CEID"
+      },
+      "firstName" : "Clark",
+      "lastName" : "Vasey",
+      "fullName" : "Clark Vasey"
+    },
+    "votesNow" : 5816,
+    "shareNow" : 14.8579597,
+    "shareChange" : -4.07304811
+  }, {
+    "candidate" : {
+      "candidateId" : 5053,
+      "party" : {
+        "code" : "UKIP",
+        "name" : "UKIP",
+        "shortName" : "UKIP"
+      },
+      "firstName" : "Wayne",
+      "lastName" : "Harling",
+      "fullName" : "Wayne Harling"
+    },
+    "votesNow" : 3838,
+    "shareNow" : 9.80482292,
+    "shareChange" : 9.80482292
+  }, {
+    "candidate" : {
+      "candidateId" : 2678,
+      "party" : {
+        "code" : "GRN",
+        "name" : "Green Party",
+        "shortName" : "Green",
+        "altName" : "Plaid Werdd",
+        "altCode" : "GRDd"
+      },
+      "firstName" : "Kenny",
+      "lastName" : "Peers",
+      "fullName" : "Kenny Peers"
+    },
+    "votesNow" : 1626,
+    "shareNow" : 4.15389299,
+    "shareChange" : 4.15389299
+  }, {
+    "candidate" : {
+      "candidateId" : 2679,
+      "party" : {
+        "code" : "LD",
+        "name" : "Liberal Democrat",
+        "shortName" : "Lib Dem",
+        "altName" : "Democratiaid Rhyddfrydol",
+        "altCode" : "DRh"
+      },
+      "firstName" : "Allan",
+      "lastName" : "Brame",
+      "fullName" : "Allan Brame"
+    },
+    "votesNow" : 1396,
+    "shareNow" : 3.56631899,
+    "shareChange" : -14.9881639
+  } ]
+}, {
+  "constituency" : {
+    "region" : {
       "name" : "Blaydon",
       "shortName" : "Blaydon",
       "gssId" : "E14000574"
@@ -13995,9 +14422,9 @@
         "altName" : "Ceidwadwyr",
         "altCode" : "CEID"
       },
-      "firstName" : "GÃ¶nÃ¼l",
+      "firstName" : "Gönül",
       "lastName" : "Daniels",
-      "fullName" : "GÃ¶nÃ¼l Daniels"
+      "fullName" : "Gönül Daniels"
     },
     "votesNow" : 9969,
     "shareNow" : 24.1158257,
@@ -16115,9 +16542,9 @@
         "name" : "Sinn Fein",
         "shortName" : "Sinn Fein"
       },
-      "firstName" : "MÃ¡irtÃ­n",
-      "lastName" : "Ã“ Muilleoir",
-      "fullName" : "MÃ¡irtÃ­n Ã“ Muilleoir"
+      "firstName" : "Máirtín",
+      "lastName" : "Ó Muilleoir",
+      "fullName" : "Máirtín Ó Muilleoir"
     },
     "votesNow" : 5402,
     "shareNow" : 13.8665714,
@@ -16323,40 +16750,25 @@
 }, {
   "constituency" : {
     "region" : {
-      "name" : "Berwick-upon-Tweed",
-      "shortName" : "Berwick-upon-Tweed",
-      "gssId" : "E14000554"
+      "name" : "Blyth Valley",
+      "shortName" : "Blyth Valley",
+      "gssId" : "E14000575"
     },
-    "partyCodeLast" : "LD",
-    "electorate" : 58098
+    "partyCodeLast" : "LAB",
+    "electorate" : 63958
   },
-  "newPartyCode" : null,
-  "resultBanner" : null,
-  "majorityNow" : 0,
-  "majorityPctNow" : 0.000000,
+  "newPartyCode" : "LAB",
+  "resultBanner" : "LAB HOLD",
+  "majorityNow" : 9229,
+  "majorityPctNow" : 23.995736,
   "turnout" : {
-    "count" : 0,
-    "percentage" : 0,
-    "percentageChange" : 0
+    "count" : 38461,
+    "percentage" : 60.1347771,
+    "percentageChange" : -1.17841995
   },
   "results" : [ {
     "candidate" : {
-      "candidateId" : 3315,
-      "party" : {
-        "code" : "UKIP",
-        "name" : "UKIP",
-        "shortName" : "UKIP"
-      },
-      "firstName" : "Nigel",
-      "lastName" : "Coghill-Marshall",
-      "fullName" : "Nigel Coghill-Marshall"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 1225,
+      "candidateId" : 1158,
       "party" : {
         "code" : "LAB",
         "name" : "Labour",
@@ -16364,65 +16776,31 @@
         "altName" : "Llafur",
         "altCode" : "LLAF"
       },
-      "firstName" : "Scott",
-      "lastName" : "Dickinson",
-      "fullName" : "Scott Dickinson"
+      "firstName" : "Ronnie",
+      "lastName" : "Campbell",
+      "fullName" : "Ronnie Campbell"
     },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
+    "votesNow" : 17813,
+    "shareNow" : 46.3144493,
+    "shareChange" : 1.829669
   }, {
     "candidate" : {
-      "candidateId" : 5454,
+      "candidateId" : 3625,
       "party" : {
-        "code" : "ED",
-        "name" : "English Democrats",
-        "shortName" : "Eng Dem"
+        "code" : "UKIP",
+        "name" : "UKIP",
+        "shortName" : "UKIP"
       },
-      "firstName" : "Neil",
-      "lastName" : "Humphrey",
-      "fullName" : "Neil Humphrey"
+      "firstName" : "Barry",
+      "lastName" : "Elliott",
+      "fullName" : "Barry Elliott"
     },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
+    "votesNow" : 8584,
+    "shareNow" : 22.3187122,
+    "shareChange" : 18.0014381
   }, {
     "candidate" : {
-      "candidateId" : 1226,
-      "party" : {
-        "code" : "LD",
-        "name" : "Liberal Democrat",
-        "shortName" : "Lib Dem",
-        "altName" : "Democratiaid Rhyddfrydol",
-        "altCode" : "DRh"
-      },
-      "firstName" : "Julie",
-      "lastName" : "PÃ¶rksen",
-      "fullName" : "Julie PÃ¶rksen"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 3198,
-      "party" : {
-        "code" : "GRN",
-        "name" : "Green Party",
-        "shortName" : "Green",
-        "altName" : "Plaid Werdd",
-        "altCode" : "GRDd"
-      },
-      "firstName" : "Rachael",
-      "lastName" : "Roberts",
-      "fullName" : "Rachael Roberts"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 1224,
+      "candidateId" : 3131,
       "party" : {
         "code" : "CON",
         "name" : "Conservative",
@@ -16430,13 +16808,165 @@
         "altName" : "Ceidwadwyr",
         "altCode" : "CEID"
       },
-      "firstName" : "Anne-Marie",
-      "lastName" : "Trevelyan",
-      "fullName" : "Anne-Marie Trevelyan"
+      "firstName" : "Greg",
+      "lastName" : "Munro",
+      "fullName" : "Greg Munro"
     },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
+    "votesNow" : 8346,
+    "shareNow" : 21.6999035,
+    "shareChange" : 5.07386017
+  }, {
+    "candidate" : {
+      "candidateId" : 2921,
+      "party" : {
+        "code" : "LD",
+        "name" : "Liberal Democrat",
+        "shortName" : "Lib Dem",
+        "altName" : "Democratiaid Rhyddfrydol",
+        "altCode" : "DRh"
+      },
+      "firstName" : "Philip",
+      "lastName" : "Latham",
+      "fullName" : "Philip Latham"
+    },
+    "votesNow" : 2265,
+    "shareNow" : 5.88908195,
+    "shareChange" : -21.3058567
+  }, {
+    "candidate" : {
+      "candidateId" : 5037,
+      "party" : {
+        "code" : "GRN",
+        "name" : "Green Party",
+        "shortName" : "Green",
+        "altName" : "Plaid Werdd",
+        "altCode" : "GRDd"
+      },
+      "firstName" : "Dawn",
+      "lastName" : "Furness",
+      "fullName" : "Dawn Furness"
+    },
+    "votesNow" : 1453,
+    "shareNow" : 3.77785301,
+    "shareChange" : 3.77785301
+  } ]
+}, {
+  "constituency" : {
+    "region" : {
+      "name" : "Beverley & Holderness",
+      "shortName" : "Beverley & Holderness",
+      "gssId" : "E14000556"
+    },
+    "partyCodeLast" : "CON",
+    "electorate" : 80822
+  },
+  "newPartyCode" : "CON",
+  "resultBanner" : "CON HOLD",
+  "majorityNow" : 12203,
+  "majorityPctNow" : 23.165708,
+  "turnout" : {
+    "count" : 52677,
+    "percentage" : 65.1765594,
+    "percentageChange" : -1.89396501
+  },
+  "results" : [ {
+    "candidate" : {
+      "candidateId" : 5251,
+      "party" : {
+        "code" : "CON",
+        "name" : "Conservative",
+        "shortName" : "Conservative",
+        "altName" : "Ceidwadwyr",
+        "altCode" : "CEID"
+      },
+      "firstName" : "Graham",
+      "lastName" : "Stuart",
+      "fullName" : "Graham Stuart"
+    },
+    "votesNow" : 25363,
+    "shareNow" : 48.1481476,
+    "shareChange" : 1.03636003
+  }, {
+    "candidate" : {
+      "candidateId" : 1307,
+      "party" : {
+        "code" : "LAB",
+        "name" : "Labour",
+        "shortName" : "Labour",
+        "altName" : "Llafur",
+        "altCode" : "LLAF"
+      },
+      "firstName" : "Margaret",
+      "lastName" : "Pinder",
+      "fullName" : "Margaret Pinder"
+    },
+    "votesNow" : 13160,
+    "shareNow" : 24.9824409,
+    "shareChange" : 3.88429904
+  }, {
+    "candidate" : {
+      "candidateId" : 1308,
+      "party" : {
+        "code" : "UKIP",
+        "name" : "UKIP",
+        "shortName" : "UKIP"
+      },
+      "firstName" : "Gary",
+      "lastName" : "Shores",
+      "fullName" : "Gary Shores"
+    },
+    "votesNow" : 8794,
+    "shareNow" : 16.6941929,
+    "shareChange" : 13.2260828
+  }, {
+    "candidate" : {
+      "candidateId" : 2655,
+      "party" : {
+        "code" : "LD",
+        "name" : "Liberal Democrat",
+        "shortName" : "Lib Dem",
+        "altName" : "Democratiaid Rhyddfrydol",
+        "altCode" : "DRh"
+      },
+      "firstName" : "Denis",
+      "lastName" : "Healy",
+      "fullName" : "Denis Healy"
+    },
+    "votesNow" : 2900,
+    "shareNow" : 5.50524902,
+    "shareChange" : -17.1944256
+  }, {
+    "candidate" : {
+      "candidateId" : 3789,
+      "party" : {
+        "code" : "GRN",
+        "name" : "Green Party",
+        "shortName" : "Green",
+        "altName" : "Plaid Werdd",
+        "altCode" : "GRDd"
+      },
+      "firstName" : "Richard",
+      "lastName" : "Howarth",
+      "fullName" : "Richard Howarth"
+    },
+    "votesNow" : 1802,
+    "shareNow" : 3.42084789,
+    "shareChange" : 2.13135004
+  }, {
+    "candidate" : {
+      "candidateId" : 4180,
+      "party" : {
+        "code" : "YF",
+        "name" : "Yorkshire First",
+        "shortName" : "Yorkshire"
+      },
+      "firstName" : "Lee",
+      "lastName" : "Walton",
+      "fullName" : "Lee Walton"
+    },
+    "votesNow" : 658,
+    "shareNow" : 1.24912202,
+    "shareChange" : 1.24912202
   } ]
 }, {
   "constituency" : {
@@ -18786,227 +19316,6 @@
 }, {
   "constituency" : {
     "region" : {
-      "name" : "Beverley & Holderness",
-      "shortName" : "Beverley & Holderness",
-      "gssId" : "E14000556"
-    },
-    "partyCodeLast" : "CON",
-    "electorate" : 80822
-  },
-  "newPartyCode" : "CON",
-  "resultBanner" : "CON HOLD",
-  "majorityNow" : 12203,
-  "majorityPctNow" : 20.824232,
-  "turnout" : {
-    "count" : 58600,
-    "percentage" : 72.5050125,
-    "percentageChange" : 5.43448496
-  },
-  "results" : [ {
-    "candidate" : {
-      "candidateId" : 5251,
-      "party" : {
-        "code" : "CON",
-        "name" : "Conservative",
-        "shortName" : "Conservative",
-        "altName" : "Ceidwadwyr",
-        "altCode" : "CEID"
-      },
-      "firstName" : "Graham",
-      "lastName" : "Stuart",
-      "fullName" : "Graham Stuart"
-    },
-    "votesNow" : 25363,
-    "shareNow" : 43.2815704,
-    "shareChange" : -3.83021808
-  }, {
-    "candidate" : {
-      "candidateId" : 1307,
-      "party" : {
-        "code" : "LAB",
-        "name" : "Labour",
-        "shortName" : "Labour",
-        "altName" : "Llafur",
-        "altCode" : "LLAF"
-      },
-      "firstName" : "Margaret",
-      "lastName" : "Pinder",
-      "fullName" : "Margaret Pinder"
-    },
-    "votesNow" : 13160,
-    "shareNow" : 22.4573383,
-    "shareChange" : 1.35919702
-  }, {
-    "candidate" : {
-      "candidateId" : 1308,
-      "party" : {
-        "code" : "UKIP",
-        "name" : "UKIP",
-        "shortName" : "UKIP"
-      },
-      "firstName" : "Gary",
-      "lastName" : "Shores",
-      "fullName" : "Gary Shores"
-    },
-    "votesNow" : 8794,
-    "shareNow" : 15.0068264,
-    "shareChange" : 11.5387163
-  }, {
-    "candidate" : {
-      "candidateId" : 4180,
-      "party" : {
-        "code" : "YF",
-        "name" : "Yorkshire First",
-        "shortName" : "Yorkshire"
-      },
-      "firstName" : "Lee",
-      "lastName" : "Walton",
-      "fullName" : "Lee Walton"
-    },
-    "votesNow" : 6581,
-    "shareNow" : 11.2303753,
-    "shareChange" : 11.2303753
-  }, {
-    "candidate" : {
-      "candidateId" : 2655,
-      "party" : {
-        "code" : "LD",
-        "name" : "Liberal Democrat",
-        "shortName" : "Lib Dem",
-        "altName" : "Democratiaid Rhyddfrydol",
-        "altCode" : "DRh"
-      },
-      "firstName" : "Denis",
-      "lastName" : "Healy",
-      "fullName" : "Denis Healy"
-    },
-    "votesNow" : 2900,
-    "shareNow" : 4.94880486,
-    "shareChange" : -17.7508698
-  }, {
-    "candidate" : {
-      "candidateId" : 3789,
-      "party" : {
-        "code" : "GRN",
-        "name" : "Green Party",
-        "shortName" : "Green",
-        "altName" : "Plaid Werdd",
-        "altCode" : "GRDd"
-      },
-      "firstName" : "Richard",
-      "lastName" : "Howarth",
-      "fullName" : "Richard Howarth"
-    },
-    "votesNow" : 1802,
-    "shareNow" : 3.07508492,
-    "shareChange" : 1.78558695
-  } ]
-}, {
-  "constituency" : {
-    "region" : {
-      "name" : "Blyth Valley",
-      "shortName" : "Blyth Valley",
-      "gssId" : "E14000575"
-    },
-    "partyCodeLast" : "LAB",
-    "electorate" : 63958
-  },
-  "newPartyCode" : null,
-  "resultBanner" : null,
-  "majorityNow" : 0,
-  "majorityPctNow" : 0.000000,
-  "turnout" : {
-    "count" : 0,
-    "percentage" : 0,
-    "percentageChange" : 0
-  },
-  "results" : [ {
-    "candidate" : {
-      "candidateId" : 1158,
-      "party" : {
-        "code" : "LAB",
-        "name" : "Labour",
-        "shortName" : "Labour",
-        "altName" : "Llafur",
-        "altCode" : "LLAF"
-      },
-      "firstName" : "Ronnie",
-      "lastName" : "Campbell",
-      "fullName" : "Ronnie Campbell"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 3625,
-      "party" : {
-        "code" : "UKIP",
-        "name" : "UKIP",
-        "shortName" : "UKIP"
-      },
-      "firstName" : "Barry",
-      "lastName" : "Elliott",
-      "fullName" : "Barry Elliott"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 5037,
-      "party" : {
-        "code" : "GRN",
-        "name" : "Green Party",
-        "shortName" : "Green",
-        "altName" : "Plaid Werdd",
-        "altCode" : "GRDd"
-      },
-      "firstName" : "Dawn",
-      "lastName" : "Furness",
-      "fullName" : "Dawn Furness"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 2921,
-      "party" : {
-        "code" : "LD",
-        "name" : "Liberal Democrat",
-        "shortName" : "Lib Dem",
-        "altName" : "Democratiaid Rhyddfrydol",
-        "altCode" : "DRh"
-      },
-      "firstName" : "Philip",
-      "lastName" : "Latham",
-      "fullName" : "Philip Latham"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 3131,
-      "party" : {
-        "code" : "CON",
-        "name" : "Conservative",
-        "shortName" : "Conservative",
-        "altName" : "Ceidwadwyr",
-        "altCode" : "CEID"
-      },
-      "firstName" : "Greg",
-      "lastName" : "Munro",
-      "fullName" : "Greg Munro"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  } ]
-}, {
-  "constituency" : {
-    "region" : {
       "name" : "Bognor Regis & Littlehampton",
       "shortName" : "Bognor Regis & Littlehampton",
       "gssId" : "E14000576"
@@ -20298,109 +20607,6 @@
 }, {
   "constituency" : {
     "region" : {
-      "name" : "Birkenhead",
-      "shortName" : "Birkenhead",
-      "gssId" : "E14000559"
-    },
-    "partyCodeLast" : "LAB",
-    "electorate" : 62438
-  },
-  "newPartyCode" : "LAB",
-  "resultBanner" : "LAB HOLD",
-  "majorityNow" : 20652,
-  "majorityPctNow" : 54.808917,
-  "turnout" : {
-    "count" : 37680,
-    "percentage" : 60.3478661,
-    "percentageChange" : 4.07685709
-  },
-  "results" : [ {
-    "candidate" : {
-      "candidateId" : 4435,
-      "party" : {
-        "code" : "LAB",
-        "name" : "Labour",
-        "shortName" : "Labour",
-        "altName" : "Llafur",
-        "altCode" : "LLAF"
-      },
-      "firstName" : "Frank",
-      "lastName" : "Field",
-      "fullName" : "Frank Field"
-    },
-    "votesNow" : 26468,
-    "shareNow" : 70.2441635,
-    "shareChange" : 7.72965193
-  }, {
-    "candidate" : {
-      "candidateId" : 1387,
-      "party" : {
-        "code" : "CON",
-        "name" : "Conservative",
-        "shortName" : "Conservative",
-        "altName" : "Ceidwadwyr",
-        "altCode" : "CEID"
-      },
-      "firstName" : "Clark",
-      "lastName" : "Vasey",
-      "fullName" : "Clark Vasey"
-    },
-    "votesNow" : 5816,
-    "shareNow" : 15.4352436,
-    "shareChange" : -3.49576402
-  }, {
-    "candidate" : {
-      "candidateId" : 5053,
-      "party" : {
-        "code" : "UKIP",
-        "name" : "UKIP",
-        "shortName" : "UKIP"
-      },
-      "firstName" : "Wayne",
-      "lastName" : "Harling",
-      "fullName" : "Wayne Harling"
-    },
-    "votesNow" : 3838,
-    "shareNow" : 10.1857748,
-    "shareChange" : 10.1857748
-  }, {
-    "candidate" : {
-      "candidateId" : 2679,
-      "party" : {
-        "code" : "LD",
-        "name" : "Liberal Democrat",
-        "shortName" : "Lib Dem",
-        "altName" : "Democratiaid Rhyddfrydol",
-        "altCode" : "DRh"
-      },
-      "firstName" : "Allan",
-      "lastName" : "Brame",
-      "fullName" : "Allan Brame"
-    },
-    "votesNow" : 1396,
-    "shareNow" : 3.7048831,
-    "shareChange" : -14.8495998
-  }, {
-    "candidate" : {
-      "candidateId" : 2678,
-      "party" : {
-        "code" : "GRN",
-        "name" : "Green Party",
-        "shortName" : "Green",
-        "altName" : "Plaid Werdd",
-        "altCode" : "GRDd"
-      },
-      "firstName" : "Kenny",
-      "lastName" : "Peers",
-      "fullName" : "Kenny Peers"
-    },
-    "votesNow" : 162,
-    "shareNow" : 0.429935992,
-    "shareChange" : 0.429935992
-  } ]
-}, {
-  "constituency" : {
-    "region" : {
       "name" : "Basildon & Billericay",
       "shortName" : "Basildon & Billericay",
       "gssId" : "E14000544"
@@ -20884,9 +21090,9 @@
         "name" : "Sinn Fein",
         "shortName" : "Sinn Fein"
       },
-      "firstName" : "GearÃ³id",
-      "lastName" : "Ã“ HeÃ¡ra",
-      "fullName" : "GearÃ³id Ã“ HeÃ¡ra"
+      "firstName" : "Gearóid",
+      "lastName" : "Ó Heára",
+      "fullName" : "Gearóid Ó Heára"
     },
     "votesNow" : 11679,
     "shareNow" : 31.5631599,
@@ -21180,8 +21386,8 @@
         "shortName" : "Sinn Fein"
       },
       "firstName" : "Niall",
-      "lastName" : "Ã“ Donnghaile",
-      "fullName" : "Niall Ã“ Donnghaile"
+      "lastName" : "Ó Donnghaile",
+      "fullName" : "Niall Ó Donnghaile"
     },
     "votesNow" : 823,
     "shareNow" : 2.07398796,
@@ -23915,9 +24121,9 @@
         "name" : "UKIP",
         "shortName" : "UKIP"
       },
-      "firstName" : "SÃ©amus",
+      "firstName" : "Séamus",
       "lastName" : "Martin",
-      "fullName" : "SÃ©amus Martin"
+      "fullName" : "Séamus Martin"
     },
     "votesNow" : 6299,
     "shareNow" : 13.3410988,
@@ -37466,109 +37672,6 @@
 }, {
   "constituency" : {
     "region" : {
-      "name" : "Gravesham",
-      "shortName" : "Gravesham",
-      "gssId" : "E14000715"
-    },
-    "partyCodeLast" : "CON",
-    "electorate" : 74307
-  },
-  "newPartyCode" : "CON",
-  "resultBanner" : "CON HOLD",
-  "majorityNow" : 8380,
-  "majorityPctNow" : 16.710204,
-  "turnout" : {
-    "count" : 50149,
-    "percentage" : 67.4889297,
-    "percentageChange" : 0.100939997
-  },
-  "results" : [ {
-    "candidate" : {
-      "candidateId" : 5236,
-      "party" : {
-        "code" : "CON",
-        "name" : "Conservative",
-        "shortName" : "Conservative",
-        "altName" : "Ceidwadwyr",
-        "altCode" : "CEID"
-      },
-      "firstName" : "Adam",
-      "lastName" : "Holloway",
-      "fullName" : "Adam Holloway"
-    },
-    "votesNow" : 23494,
-    "shareNow" : 46.8483925,
-    "shareChange" : -1.68130004
-  }, {
-    "candidate" : {
-      "candidateId" : 2134,
-      "party" : {
-        "code" : "LAB",
-        "name" : "Labour",
-        "shortName" : "Labour",
-        "altName" : "Llafur",
-        "altCode" : "LLAF"
-      },
-      "firstName" : "Tan",
-      "lastName" : "Dhesi",
-      "fullName" : "Tan Dhesi"
-    },
-    "votesNow" : 15114,
-    "shareNow" : 30.1381874,
-    "shareChange" : 1.29435098
-  }, {
-    "candidate" : {
-      "candidateId" : 2683,
-      "party" : {
-        "code" : "UKIP",
-        "name" : "UKIP",
-        "shortName" : "UKIP"
-      },
-      "firstName" : "Sean",
-      "lastName" : "Marriott",
-      "fullName" : "Sean Marriott"
-    },
-    "votesNow" : 9306,
-    "shareNow" : 18.5567017,
-    "shareChange" : 13.7684212
-  }, {
-    "candidate" : {
-      "candidateId" : 2682,
-      "party" : {
-        "code" : "GRN",
-        "name" : "Green Party",
-        "shortName" : "Green",
-        "altName" : "Plaid Werdd",
-        "altCode" : "GRDd"
-      },
-      "firstName" : "Mark",
-      "lastName" : "Lindop",
-      "fullName" : "Mark Lindop"
-    },
-    "votesNow" : 1124,
-    "shareNow" : 2.24132109,
-    "shareChange" : 0.814350009
-  }, {
-    "candidate" : {
-      "candidateId" : 5558,
-      "party" : {
-        "code" : "LD",
-        "name" : "Liberal Democrat",
-        "shortName" : "Lib Dem",
-        "altName" : "Democratiaid Rhyddfrydol",
-        "altCode" : "DRh"
-      },
-      "firstName" : "Anne-Marie",
-      "lastName" : "Bunting",
-      "fullName" : "Anne-Marie Bunting"
-    },
-    "votesNow" : 1111,
-    "shareNow" : 2.21539807,
-    "shareChange" : -11.0881977
-  } ]
-}, {
-  "constituency" : {
-    "region" : {
       "name" : "Horsham",
       "shortName" : "Horsham",
       "gssId" : "E14000753"
@@ -38521,6 +38624,109 @@
     "votesNow" : 1015,
     "shareNow" : 2.04513407,
     "shareChange" : 0.928129017
+  } ]
+}, {
+  "constituency" : {
+    "region" : {
+      "name" : "Hexham",
+      "shortName" : "Hexham",
+      "gssId" : "E14000746"
+    },
+    "partyCodeLast" : "CON",
+    "electorate" : 60614
+  },
+  "newPartyCode" : "CON",
+  "resultBanner" : "CON HOLD",
+  "majorityNow" : 12031,
+  "majorityPctNow" : 27.756373,
+  "turnout" : {
+    "count" : 43345,
+    "percentage" : 71.5098801,
+    "percentageChange" : -0.529547989
+  },
+  "results" : [ {
+    "candidate" : {
+      "candidateId" : 1745,
+      "party" : {
+        "code" : "CON",
+        "name" : "Conservative",
+        "shortName" : "Conservative",
+        "altName" : "Ceidwadwyr",
+        "altCode" : "CEID"
+      },
+      "firstName" : "Guy",
+      "lastName" : "Opperman",
+      "fullName" : "Guy Opperman"
+    },
+    "votesNow" : 22834,
+    "shareNow" : 52.6796646,
+    "shareChange" : 9.45587444
+  }, {
+    "candidate" : {
+      "candidateId" : 1746,
+      "party" : {
+        "code" : "LAB",
+        "name" : "Labour",
+        "shortName" : "Labour",
+        "altName" : "Llafur",
+        "altCode" : "LLAF"
+      },
+      "firstName" : "Liam",
+      "lastName" : "Carr",
+      "fullName" : "Liam Carr"
+    },
+    "votesNow" : 10803,
+    "shareNow" : 24.9232903,
+    "shareChange" : 5.94345903
+  }, {
+    "candidate" : {
+      "candidateId" : 1748,
+      "party" : {
+        "code" : "UKIP",
+        "name" : "UKIP",
+        "shortName" : "UKIP"
+      },
+      "firstName" : "David",
+      "lastName" : "Nicholson",
+      "fullName" : "David Nicholson"
+    },
+    "votesNow" : 4302,
+    "shareNow" : 9.92502022,
+    "shareChange" : 9.92502022
+  }, {
+    "candidate" : {
+      "candidateId" : 1747,
+      "party" : {
+        "code" : "LD",
+        "name" : "Liberal Democrat",
+        "shortName" : "Lib Dem",
+        "altName" : "Democratiaid Rhyddfrydol",
+        "altCode" : "DRh"
+      },
+      "firstName" : "Jeff",
+      "lastName" : "Reid",
+      "fullName" : "Jeff Reid"
+    },
+    "votesNow" : 2961,
+    "shareNow" : 6.83123779,
+    "shareChange" : -23.0816021
+  }, {
+    "candidate" : {
+      "candidateId" : 3223,
+      "party" : {
+        "code" : "GRN",
+        "name" : "Green Party",
+        "shortName" : "Green",
+        "altName" : "Plaid Werdd",
+        "altCode" : "GRDd"
+      },
+      "firstName" : "Lee",
+      "lastName" : "Williscroft-Ferris",
+      "fullName" : "Lee Williscroft-Ferris"
+    },
+    "votesNow" : 2445,
+    "shareNow" : 5.64078903,
+    "shareChange" : 5.64078903
   } ]
 }, {
   "constituency" : {
@@ -42592,109 +42798,6 @@
 }, {
   "constituency" : {
     "region" : {
-      "name" : "Hexham",
-      "shortName" : "Hexham",
-      "gssId" : "E14000746"
-    },
-    "partyCodeLast" : "CON",
-    "electorate" : 60614
-  },
-  "newPartyCode" : null,
-  "resultBanner" : null,
-  "majorityNow" : 0,
-  "majorityPctNow" : 0.000000,
-  "turnout" : {
-    "count" : 0,
-    "percentage" : 0,
-    "percentageChange" : 0
-  },
-  "results" : [ {
-    "candidate" : {
-      "candidateId" : 1746,
-      "party" : {
-        "code" : "LAB",
-        "name" : "Labour",
-        "shortName" : "Labour",
-        "altName" : "Llafur",
-        "altCode" : "LLAF"
-      },
-      "firstName" : "Liam",
-      "lastName" : "Carr",
-      "fullName" : "Liam Carr"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 1748,
-      "party" : {
-        "code" : "UKIP",
-        "name" : "UKIP",
-        "shortName" : "UKIP"
-      },
-      "firstName" : "David",
-      "lastName" : "Nicholson",
-      "fullName" : "David Nicholson"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 1745,
-      "party" : {
-        "code" : "CON",
-        "name" : "Conservative",
-        "shortName" : "Conservative",
-        "altName" : "Ceidwadwyr",
-        "altCode" : "CEID"
-      },
-      "firstName" : "Guy",
-      "lastName" : "Opperman",
-      "fullName" : "Guy Opperman"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 1747,
-      "party" : {
-        "code" : "LD",
-        "name" : "Liberal Democrat",
-        "shortName" : "Lib Dem",
-        "altName" : "Democratiaid Rhyddfrydol",
-        "altCode" : "DRh"
-      },
-      "firstName" : "Jeff",
-      "lastName" : "Reid",
-      "fullName" : "Jeff Reid"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 3223,
-      "party" : {
-        "code" : "GRN",
-        "name" : "Green Party",
-        "shortName" : "Green",
-        "altName" : "Plaid Werdd",
-        "altCode" : "GRDd"
-      },
-      "firstName" : "Lee",
-      "lastName" : "Williscroft-Ferris",
-      "fullName" : "Lee Williscroft-Ferris"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  } ]
-}, {
-  "constituency" : {
-    "region" : {
       "name" : "Islwyn",
       "shortName" : "Islwyn",
       "altName" : "Islwyn",
@@ -46385,6 +46488,156 @@
 }, {
   "constituency" : {
     "region" : {
+      "name" : "Newbury",
+      "shortName" : "Newbury",
+      "gssId" : "E14000830"
+    },
+    "partyCodeLast" : "CON",
+    "electorate" : 79058
+  },
+  "newPartyCode" : "CON",
+  "resultBanner" : "CON HOLD",
+  "majorityNow" : 26368,
+  "majorityPctNow" : 46.017452,
+  "turnout" : {
+    "count" : 57300,
+    "percentage" : 72.4784317,
+    "percentageChange" : -1.54991901
+  },
+  "results" : [ {
+    "candidate" : {
+      "candidateId" : 1488,
+      "party" : {
+        "code" : "CON",
+        "name" : "Conservative",
+        "shortName" : "Conservative",
+        "altName" : "Ceidwadwyr",
+        "altCode" : "CEID"
+      },
+      "firstName" : "Richard",
+      "lastName" : "Benyon",
+      "fullName" : "Richard Benyon"
+    },
+    "votesNow" : 34973,
+    "shareNow" : 61.0349045,
+    "shareChange" : 4.61304998
+  }, {
+    "candidate" : {
+      "candidateId" : 1489,
+      "party" : {
+        "code" : "LD",
+        "name" : "Liberal Democrat",
+        "shortName" : "Lib Dem",
+        "altName" : "Democratiaid Rhyddfrydol",
+        "altCode" : "DRh"
+      },
+      "firstName" : "Judith",
+      "lastName" : "Bunting",
+      "fullName" : "Judith Bunting"
+    },
+    "votesNow" : 8605,
+    "shareNow" : 15.0174522,
+    "shareChange" : -20.4994545
+  }, {
+    "candidate" : {
+      "candidateId" : 2468,
+      "party" : {
+        "code" : "UKIP",
+        "name" : "UKIP",
+        "shortName" : "UKIP"
+      },
+      "firstName" : "Catherine",
+      "lastName" : "Anderson",
+      "fullName" : "Catherine Anderson"
+    },
+    "votesNow" : 6195,
+    "shareNow" : 10.8115177,
+    "shareChange" : 8.2939806
+  }, {
+    "candidate" : {
+      "candidateId" : 2467,
+      "party" : {
+        "code" : "LAB",
+        "name" : "Labour",
+        "shortName" : "Labour",
+        "altName" : "Llafur",
+        "altCode" : "LLAF"
+      },
+      "firstName" : "Jonny",
+      "lastName" : "Roberts",
+      "fullName" : "Jonny Roberts"
+    },
+    "votesNow" : 4837,
+    "shareNow" : 8.44153595,
+    "shareChange" : 4.16598892
+  }, {
+    "candidate" : {
+      "candidateId" : 4256,
+      "party" : {
+        "code" : "GRN",
+        "name" : "Green Party",
+        "shortName" : "Green",
+        "altName" : "Plaid Werdd",
+        "altCode" : "GRDd"
+      },
+      "firstName" : "Paul",
+      "lastName" : "Field",
+      "fullName" : "Paul Field"
+    },
+    "votesNow" : 2324,
+    "shareNow" : 4.05584621,
+    "shareChange" : 3.21951199
+  }, {
+    "candidate" : {
+      "candidateId" : 5394,
+      "party" : {
+        "code" : "AD",
+        "name" : "Apolitical Democrats",
+        "shortName" : "Apol Dems"
+      },
+      "firstName" : "Peter",
+      "lastName" : "Norman",
+      "fullName" : "Peter Norman"
+    },
+    "votesNow" : 228,
+    "shareNow" : 0.397906005,
+    "shareChange" : 0.235760003
+  }, {
+    "candidate" : {
+      "candidateId" : 5396,
+      "party" : {
+        "code" : "IND",
+        "name" : "Independent",
+        "shortName" : "Independent",
+        "altName" : "Annibynnol",
+        "altCode" : "ANNI"
+      },
+      "firstName" : "Barrie",
+      "lastName" : "Singleton",
+      "fullName" : "Barrie Singleton"
+    },
+    "votesNow" : 85,
+    "shareNow" : 0.148341998,
+    "shareChange" : 0.148341998
+  }, {
+    "candidate" : {
+      "candidateId" : 4049,
+      "party" : {
+        "code" : "PSP",
+        "name" : "Patriotic Socialist Party",
+        "shortName" : "Patriotic Socialist Party"
+      },
+      "firstName" : "Andrew",
+      "lastName" : "Stott",
+      "fullName" : "Andrew Stott"
+    },
+    "votesNow" : 53,
+    "shareNow" : 0.0924960002,
+    "shareChange" : 0.0924960002
+  } ]
+}, {
+  "constituency" : {
+    "region" : {
       "name" : "Jarrow",
       "shortName" : "Jarrow",
       "gssId" : "E14000765"
@@ -49216,156 +49469,6 @@
     "votesNow" : 120,
     "shareNow" : 0.233159006,
     "shareChange" : 0.233159006
-  } ]
-}, {
-  "constituency" : {
-    "region" : {
-      "name" : "Newbury",
-      "shortName" : "Newbury",
-      "gssId" : "E14000830"
-    },
-    "partyCodeLast" : "CON",
-    "electorate" : 79058
-  },
-  "newPartyCode" : "CON",
-  "resultBanner" : "CON HOLD",
-  "majorityNow" : 26368,
-  "majorityPctNow" : 46.017452,
-  "turnout" : {
-    "count" : 57300,
-    "percentage" : 72.4784317,
-    "percentageChange" : -1.54991901
-  },
-  "results" : [ {
-    "candidate" : {
-      "candidateId" : 1488,
-      "party" : {
-        "code" : "CON",
-        "name" : "Conservative",
-        "shortName" : "Conservative",
-        "altName" : "Ceidwadwyr",
-        "altCode" : "CEID"
-      },
-      "firstName" : "Richard",
-      "lastName" : "Benyon",
-      "fullName" : "Richard Benyon"
-    },
-    "votesNow" : 34973,
-    "shareNow" : 61.0349045,
-    "shareChange" : 4.61304998
-  }, {
-    "candidate" : {
-      "candidateId" : 1489,
-      "party" : {
-        "code" : "LD",
-        "name" : "Liberal Democrat",
-        "shortName" : "Lib Dem",
-        "altName" : "Democratiaid Rhyddfrydol",
-        "altCode" : "DRh"
-      },
-      "firstName" : "Judith",
-      "lastName" : "Bunting",
-      "fullName" : "Judith Bunting"
-    },
-    "votesNow" : 8605,
-    "shareNow" : 15.0174522,
-    "shareChange" : -20.4994545
-  }, {
-    "candidate" : {
-      "candidateId" : 2468,
-      "party" : {
-        "code" : "UKIP",
-        "name" : "UKIP",
-        "shortName" : "UKIP"
-      },
-      "firstName" : "Catherine",
-      "lastName" : "Anderson",
-      "fullName" : "Catherine Anderson"
-    },
-    "votesNow" : 6195,
-    "shareNow" : 10.8115177,
-    "shareChange" : 8.2939806
-  }, {
-    "candidate" : {
-      "candidateId" : 2467,
-      "party" : {
-        "code" : "LAB",
-        "name" : "Labour",
-        "shortName" : "Labour",
-        "altName" : "Llafur",
-        "altCode" : "LLAF"
-      },
-      "firstName" : "Jonny",
-      "lastName" : "Roberts",
-      "fullName" : "Jonny Roberts"
-    },
-    "votesNow" : 4837,
-    "shareNow" : 8.44153595,
-    "shareChange" : 4.16598892
-  }, {
-    "candidate" : {
-      "candidateId" : 4256,
-      "party" : {
-        "code" : "GRN",
-        "name" : "Green Party",
-        "shortName" : "Green",
-        "altName" : "Plaid Werdd",
-        "altCode" : "GRDd"
-      },
-      "firstName" : "Paul",
-      "lastName" : "Field",
-      "fullName" : "Paul Field"
-    },
-    "votesNow" : 2324,
-    "shareNow" : 4.05584621,
-    "shareChange" : 3.21951199
-  }, {
-    "candidate" : {
-      "candidateId" : 5394,
-      "party" : {
-        "code" : "AD",
-        "name" : "Apolitical Democrats",
-        "shortName" : "Apol Dems"
-      },
-      "firstName" : "Peter",
-      "lastName" : "Norman",
-      "fullName" : "Peter Norman"
-    },
-    "votesNow" : 228,
-    "shareNow" : 0.397906005,
-    "shareChange" : 0.235760003
-  }, {
-    "candidate" : {
-      "candidateId" : 5396,
-      "party" : {
-        "code" : "IND",
-        "name" : "Independent",
-        "shortName" : "Independent",
-        "altName" : "Annibynnol",
-        "altCode" : "ANNI"
-      },
-      "firstName" : "Barrie",
-      "lastName" : "Singleton",
-      "fullName" : "Barrie Singleton"
-    },
-    "votesNow" : 85,
-    "shareNow" : 0.148341998,
-    "shareChange" : 0.148341998
-  }, {
-    "candidate" : {
-      "candidateId" : 4049,
-      "party" : {
-        "code" : "PSP",
-        "name" : "Patriotic Socialist Party",
-        "shortName" : "Patriotic Socialist Party"
-      },
-      "firstName" : "Andrew",
-      "lastName" : "Stott",
-      "fullName" : "Andrew Stott"
-    },
-    "votesNow" : 53,
-    "shareNow" : 0.0924960002,
-    "shareChange" : 0.0924960002
   } ]
 }, {
   "constituency" : {
@@ -56853,6 +56956,124 @@
 }, {
   "constituency" : {
     "region" : {
+      "name" : "St Ives",
+      "shortName" : "St Ives",
+      "gssId" : "E14000964"
+    },
+    "partyCodeLast" : "LD",
+    "electorate" : 67688
+  },
+  "newPartyCode" : "CON",
+  "resultBanner" : "CON GAIN FROM LD",
+  "majorityNow" : 2469,
+  "majorityPctNow" : 5.110532,
+  "turnout" : {
+    "count" : 48312,
+    "percentage" : 73.6800385,
+    "percentageChange" : 5.08389711
+  },
+  "results" : [ {
+    "candidate" : {
+      "candidateId" : 1693,
+      "party" : {
+        "code" : "CON",
+        "name" : "Conservative",
+        "shortName" : "Conservative",
+        "altName" : "Ceidwadwyr",
+        "altCode" : "CEID"
+      },
+      "firstName" : "Derek",
+      "lastName" : "Thomas",
+      "fullName" : "Derek Thomas"
+    },
+    "votesNow" : 18491,
+    "shareNow" : 38.2741356,
+    "shareChange" : -0.705851972
+  }, {
+    "candidate" : {
+      "candidateId" : 1695,
+      "party" : {
+        "code" : "LD",
+        "name" : "Liberal Democrat",
+        "shortName" : "Lib Dem",
+        "altName" : "Democratiaid Rhyddfrydol",
+        "altCode" : "DRh"
+      },
+      "firstName" : "Andrew",
+      "lastName" : "George",
+      "fullName" : "Andrew George"
+    },
+    "votesNow" : 16022,
+    "shareNow" : 33.1636047,
+    "shareChange" : -9.55976963
+  }, {
+    "candidate" : {
+      "candidateId" : 1697,
+      "party" : {
+        "code" : "UKIP",
+        "name" : "UKIP",
+        "shortName" : "UKIP"
+      },
+      "firstName" : "Graham",
+      "lastName" : "Calderwood",
+      "fullName" : "Graham Calderwood"
+    },
+    "votesNow" : 5720,
+    "shareNow" : 11.8397093,
+    "shareChange" : 6.26491785
+  }, {
+    "candidate" : {
+      "candidateId" : 1694,
+      "party" : {
+        "code" : "LAB",
+        "name" : "Labour",
+        "shortName" : "Labour",
+        "altName" : "Llafur",
+        "altCode" : "LLAF"
+      },
+      "firstName" : "Cornelius",
+      "lastName" : "Olivier",
+      "fullName" : "Cornelius Olivier"
+    },
+    "votesNow" : 4510,
+    "shareNow" : 9.33515453,
+    "shareChange" : 1.16677904
+  }, {
+    "candidate" : {
+      "candidateId" : 2567,
+      "party" : {
+        "code" : "GRN",
+        "name" : "Green Party",
+        "shortName" : "Green",
+        "altName" : "Plaid Werdd",
+        "altCode" : "GRDd"
+      },
+      "firstName" : "Tim",
+      "lastName" : "Andrewes",
+      "fullName" : "Tim Andrewes"
+    },
+    "votesNow" : 3051,
+    "shareNow" : 6.31520081,
+    "shareChange" : 3.46683097
+  }, {
+    "candidate" : {
+      "candidateId" : 1696,
+      "party" : {
+        "code" : "MK",
+        "name" : "Mebyon Kernow",
+        "shortName" : "Mebyon Kernow"
+      },
+      "firstName" : "Rob",
+      "lastName" : "Simmons",
+      "fullName" : "Rob Simmons"
+    },
+    "votesNow" : 518,
+    "shareNow" : 1.07219696,
+    "shareChange" : 0.229444996
+  } ]
+}, {
+  "constituency" : {
+    "region" : {
       "name" : "Redcar",
       "shortName" : "Redcar",
       "gssId" : "E14000891"
@@ -58142,9 +58363,9 @@
         "altName" : "Plaid Werdd",
         "altCode" : "GRDd"
       },
-      "firstName" : "AndrÃ©e",
+      "firstName" : "Andrée",
       "lastName" : "Frieze",
-      "fullName" : "AndrÃ©e Frieze"
+      "fullName" : "Andrée Frieze"
     },
     "votesNow" : 3548,
     "shareNow" : 6.00328302,
@@ -59578,8 +59799,8 @@
         "altCode" : "CEID"
       },
       "firstName" : "Elise",
-      "lastName" : "DÃ¼nweber",
-      "fullName" : "Elise DÃ¼nweber"
+      "lastName" : "Dünweber",
+      "fullName" : "Elise Dünweber"
     },
     "votesNow" : 4407,
     "shareNow" : 11.0029211,
@@ -60349,124 +60570,6 @@
     "votesNow" : 2237,
     "shareNow" : 4.62218714,
     "shareChange" : 4.62218714
-  } ]
-}, {
-  "constituency" : {
-    "region" : {
-      "name" : "St Ives",
-      "shortName" : "St Ives",
-      "gssId" : "E14000964"
-    },
-    "partyCodeLast" : "LD",
-    "electorate" : 67688
-  },
-  "newPartyCode" : null,
-  "resultBanner" : null,
-  "majorityNow" : 0,
-  "majorityPctNow" : 0.000000,
-  "turnout" : {
-    "count" : 0,
-    "percentage" : 0,
-    "percentageChange" : 0
-  },
-  "results" : [ {
-    "candidate" : {
-      "candidateId" : 2567,
-      "party" : {
-        "code" : "GRN",
-        "name" : "Green Party",
-        "shortName" : "Green",
-        "altName" : "Plaid Werdd",
-        "altCode" : "GRDd"
-      },
-      "firstName" : "Tim",
-      "lastName" : "Andrewes",
-      "fullName" : "Tim Andrewes"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 1697,
-      "party" : {
-        "code" : "UKIP",
-        "name" : "UKIP",
-        "shortName" : "UKIP"
-      },
-      "firstName" : "Graham",
-      "lastName" : "Calderwood",
-      "fullName" : "Graham Calderwood"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 1695,
-      "party" : {
-        "code" : "LD",
-        "name" : "Liberal Democrat",
-        "shortName" : "Lib Dem",
-        "altName" : "Democratiaid Rhyddfrydol",
-        "altCode" : "DRh"
-      },
-      "firstName" : "Andrew",
-      "lastName" : "George",
-      "fullName" : "Andrew George"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 1694,
-      "party" : {
-        "code" : "LAB",
-        "name" : "Labour",
-        "shortName" : "Labour",
-        "altName" : "Llafur",
-        "altCode" : "LLAF"
-      },
-      "firstName" : "Cornelius",
-      "lastName" : "Olivier",
-      "fullName" : "Cornelius Olivier"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 1696,
-      "party" : {
-        "code" : "MK",
-        "name" : "Mebyon Kernow",
-        "shortName" : "Mebyon Kernow"
-      },
-      "firstName" : "Rob",
-      "lastName" : "Simmons",
-      "fullName" : "Rob Simmons"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 1693,
-      "party" : {
-        "code" : "CON",
-        "name" : "Conservative",
-        "shortName" : "Conservative",
-        "altName" : "Ceidwadwyr",
-        "altCode" : "CEID"
-      },
-      "firstName" : "Derek",
-      "lastName" : "Thomas",
-      "fullName" : "Derek Thomas"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
   } ]
 }, {
   "constituency" : {
@@ -69238,16 +69341,33 @@
     "partyCodeLast" : "LAB",
     "electorate" : 63273
   },
-  "newPartyCode" : null,
-  "resultBanner" : null,
-  "majorityNow" : 0,
-  "majorityPctNow" : 0.000000,
+  "newPartyCode" : "LAB",
+  "resultBanner" : "LAB HOLD",
+  "majorityNow" : 10881,
+  "majorityPctNow" : 28.241798,
   "turnout" : {
-    "count" : 0,
-    "percentage" : 0,
-    "percentageChange" : 0
+    "count" : 38528,
+    "percentage" : 60.8916931,
+    "percentageChange" : -1.05677199
   },
   "results" : [ {
+    "candidate" : {
+      "candidateId" : 1021,
+      "party" : {
+        "code" : "LAB",
+        "name" : "Labour",
+        "shortName" : "Labour",
+        "altName" : "Llafur",
+        "altCode" : "LLAF"
+      },
+      "firstName" : "Ian",
+      "lastName" : "Lavery",
+      "fullName" : "Ian Lavery"
+    },
+    "votesNow" : 19267,
+    "shareNow" : 50.0077858,
+    "shareChange" : 4.15823221
+  }, {
     "candidate" : {
       "candidateId" : 3550,
       "party" : {
@@ -69261,9 +69381,24 @@
       "lastName" : "Galley",
       "fullName" : "Chris Galley"
     },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
+    "votesNow" : 8386,
+    "shareNow" : 21.7659874,
+    "shareChange" : 4.22359514
+  }, {
+    "candidate" : {
+      "candidateId" : 3958,
+      "party" : {
+        "code" : "UKIP",
+        "name" : "UKIP",
+        "shortName" : "UKIP"
+      },
+      "firstName" : "Melanie",
+      "lastName" : "Hurst",
+      "fullName" : "Melanie Hurst"
+    },
+    "votesNow" : 7014,
+    "shareNow" : 18.2049427,
+    "shareChange" : 15.6600666
   }, {
     "candidate" : {
       "candidateId" : 5293,
@@ -69278,9 +69413,9 @@
       "lastName" : "Hancock",
       "fullName" : "Tom Hancock"
     },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
+    "votesNow" : 2407,
+    "shareNow" : 6.2474041,
+    "shareChange" : -21.2314987
   }, {
     "candidate" : {
       "candidateId" : 5056,
@@ -69295,41 +69430,9 @@
       "lastName" : "Hedley",
       "fullName" : "Chris Hedley"
     },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 3958,
-      "party" : {
-        "code" : "UKIP",
-        "name" : "UKIP",
-        "shortName" : "UKIP"
-      },
-      "firstName" : "Melanie",
-      "lastName" : "Hurst",
-      "fullName" : "Melanie Hurst"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 1021,
-      "party" : {
-        "code" : "LAB",
-        "name" : "Labour",
-        "shortName" : "Labour",
-        "altName" : "Llafur",
-        "altCode" : "LLAF"
-      },
-      "firstName" : "Ian",
-      "lastName" : "Lavery",
-      "fullName" : "Ian Lavery"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
+    "votesNow" : 1454,
+    "shareNow" : 3.77387905,
+    "shareChange" : 2.20358109
   } ]
 }, {
   "constituency" : {
@@ -69806,109 +69909,6 @@
     "votesNow" : 311,
     "shareNow" : 0.591795027,
     "shareChange" : 0.0701320022
-  } ]
-}, {
-  "constituency" : {
-    "region" : {
-      "name" : "Warwick & Leamington",
-      "shortName" : "Warwick & Leamington",
-      "gssId" : "E14001019"
-    },
-    "partyCodeLast" : "CON",
-    "electorate" : 71570
-  },
-  "newPartyCode" : null,
-  "resultBanner" : null,
-  "majorityNow" : 0,
-  "majorityPctNow" : 0.000000,
-  "turnout" : {
-    "count" : 0,
-    "percentage" : 0,
-    "percentageChange" : 0
-  },
-  "results" : [ {
-    "candidate" : {
-      "candidateId" : 4194,
-      "party" : {
-        "code" : "LD",
-        "name" : "Liberal Democrat",
-        "shortName" : "Lib Dem",
-        "altName" : "Democratiaid Rhyddfrydol",
-        "altCode" : "DRh"
-      },
-      "firstName" : "Haseeb",
-      "lastName" : "Arif",
-      "fullName" : "Haseeb Arif"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 1033,
-      "party" : {
-        "code" : "LAB",
-        "name" : "Labour",
-        "shortName" : "Labour",
-        "altName" : "Llafur",
-        "altCode" : "LLAF"
-      },
-      "firstName" : "Lynnette",
-      "lastName" : "Kelly",
-      "fullName" : "Lynnette Kelly"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 3185,
-      "party" : {
-        "code" : "UKIP",
-        "name" : "UKIP",
-        "shortName" : "UKIP"
-      },
-      "firstName" : "Alastair",
-      "lastName" : "MacBrayne",
-      "fullName" : "Alastair MacBrayne"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 3999,
-      "party" : {
-        "code" : "GRN",
-        "name" : "Green Party",
-        "shortName" : "Green",
-        "altName" : "Plaid Werdd",
-        "altCode" : "GRDd"
-      },
-      "firstName" : "Azzees",
-      "lastName" : "Minott",
-      "fullName" : "Azzees Minott"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 1032,
-      "party" : {
-        "code" : "CON",
-        "name" : "Conservative",
-        "shortName" : "Conservative",
-        "altName" : "Ceidwadwyr",
-        "altCode" : "CEID"
-      },
-      "firstName" : "Chris",
-      "lastName" : "White",
-      "fullName" : "Chris White"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
   } ]
 }, {
   "constituency" : {
@@ -71191,7 +71191,7 @@
     "region" : {
       "name" : "Ynys Mon",
       "shortName" : "Ynys Mon",
-      "altName" : "Ynys MÃ´n",
+      "altName" : "Ynys Môn",
       "gssId" : "W07000041"
     },
     "partyCodeLast" : "LAB",
@@ -71668,8 +71668,8 @@
         "altCode" : "DRh"
       },
       "firstName" : "Adrian",
-      "lastName" : "HyyrylÃ¤inen-Trett",
-      "fullName" : "Adrian HyyrylÃ¤inen-Trett"
+      "lastName" : "Hyyryläinen-Trett",
+      "fullName" : "Adrian Hyyryläinen-Trett"
     },
     "votesNow" : 3312,
     "shareNow" : 6.90849209,
@@ -76529,139 +76529,6 @@
 }, {
   "constituency" : {
     "region" : {
-      "name" : "Kenilworth & Southam",
-      "shortName" : "Kenilworth & Southam",
-      "gssId" : "E14000767"
-    },
-    "partyCodeLast" : "CON",
-    "electorate" : 65606
-  },
-  "newPartyCode" : null,
-  "resultBanner" : null,
-  "majorityNow" : 0,
-  "majorityPctNow" : 0.000000,
-  "turnout" : {
-    "count" : 0,
-    "percentage" : 0,
-    "percentageChange" : 0
-  },
-  "results" : [ {
-    "candidate" : {
-      "candidateId" : 3830,
-      "party" : {
-        "code" : "GRN",
-        "name" : "Green Party",
-        "shortName" : "Green",
-        "altName" : "Plaid Werdd",
-        "altCode" : "GRDd"
-      },
-      "firstName" : "Rob",
-      "lastName" : "Ballantyne",
-      "fullName" : "Rob Ballantyne"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 3331,
-      "party" : {
-        "code" : "UKIP",
-        "name" : "UKIP",
-        "shortName" : "UKIP"
-      },
-      "firstName" : "Harry",
-      "lastName" : "Cottam",
-      "fullName" : "Harry Cottam"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 1807,
-      "party" : {
-        "code" : "LD",
-        "name" : "Liberal Democrat",
-        "shortName" : "Lib Dem",
-        "altName" : "Democratiaid Rhyddfrydol",
-        "altCode" : "DRh"
-      },
-      "firstName" : "Richard",
-      "lastName" : "Dickson",
-      "fullName" : "Richard Dickson"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 5544,
-      "party" : {
-        "code" : "DD",
-        "name" : "Digital Democracy",
-        "shortName" : "Digital Dem"
-      },
-      "firstName" : "Jon",
-      "lastName" : "Foster-Smith",
-      "fullName" : "Jon Foster-Smith"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 3842,
-      "party" : {
-        "code" : "MRLP",
-        "name" : "Monster Raving Loony Party",
-        "shortName" : "MRLP"
-      },
-      "firstName" : "Nick",
-      "lastName" : "Green",
-      "fullName" : "Nick Green"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 1806,
-      "party" : {
-        "code" : "LAB",
-        "name" : "Labour",
-        "shortName" : "Labour",
-        "altName" : "Llafur",
-        "altCode" : "LLAF"
-      },
-      "firstName" : "Bally",
-      "lastName" : "Singh",
-      "fullName" : "Bally Singh"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  }, {
-    "candidate" : {
-      "candidateId" : 4389,
-      "party" : {
-        "code" : "CON",
-        "name" : "Conservative",
-        "shortName" : "Conservative",
-        "altName" : "Ceidwadwyr",
-        "altCode" : "CEID"
-      },
-      "firstName" : "Jeremy",
-      "lastName" : "Wright",
-      "fullName" : "Jeremy Wright"
-    },
-    "votesNow" : 0,
-    "shareNow" : 0,
-    "shareChange" : 0
-  } ]
-}, {
-  "constituency" : {
-    "region" : {
       "name" : "Warrington North",
       "shortName" : "Warrington North",
       "gssId" : "E14001017"
@@ -77657,8 +77524,8 @@
         "altCode" : "DRh"
       },
       "firstName" : "Hugo",
-      "lastName" : "MiÃ©ville",
-      "fullName" : "Hugo MiÃ©ville"
+      "lastName" : "Miéville",
+      "fullName" : "Hugo Miéville"
     },
     "votesNow" : 6226,
     "shareNow" : 11.6624517,
@@ -77918,5 +77785,138 @@
     "votesNow" : 136,
     "shareNow" : 0.289036006,
     "shareChange" : 0.289036006
+  } ]
+}, {
+  "constituency" : {
+    "region" : {
+      "name" : "Kenilworth & Southam",
+      "shortName" : "Kenilworth & Southam",
+      "gssId" : "E14000767"
+    },
+    "partyCodeLast" : "CON",
+    "electorate" : 65606
+  },
+  "newPartyCode" : "CON",
+  "resultBanner" : "CON HOLD",
+  "majorityNow" : 21002,
+  "majorityPctNow" : 43.044824,
+  "turnout" : {
+    "count" : 48791,
+    "percentage" : 74.7812119,
+    "percentageChange" : -0.466607988
+  },
+  "results" : [ {
+    "candidate" : {
+      "candidateId" : 4389,
+      "party" : {
+        "code" : "CON",
+        "name" : "Conservative",
+        "shortName" : "Conservative",
+        "altName" : "Ceidwadwyr",
+        "altCode" : "CEID"
+      },
+      "firstName" : "Jeremy",
+      "lastName" : "Wright",
+      "fullName" : "Jeremy Wright"
+    },
+    "votesNow" : 28474,
+    "shareNow" : 58.3591232,
+    "shareChange" : 4.788064
+  }, {
+    "candidate" : {
+      "candidateId" : 1806,
+      "party" : {
+        "code" : "LAB",
+        "name" : "Labour",
+        "shortName" : "Labour",
+        "altName" : "Llafur",
+        "altCode" : "LLAF"
+      },
+      "firstName" : "Bally",
+      "lastName" : "Singh",
+      "fullName" : "Bally Singh"
+    },
+    "votesNow" : 7472,
+    "shareNow" : 15.3142996,
+    "shareChange" : 0.966051996
+  }, {
+    "candidate" : {
+      "candidateId" : 3331,
+      "party" : {
+        "code" : "UKIP",
+        "name" : "UKIP",
+        "shortName" : "UKIP"
+      },
+      "firstName" : "Harry",
+      "lastName" : "Cottam",
+      "fullName" : "Harry Cottam"
+    },
+    "votesNow" : 5467,
+    "shareNow" : 11.2049351,
+    "shareChange" : 8.69827557
+  }, {
+    "candidate" : {
+      "candidateId" : 1807,
+      "party" : {
+        "code" : "LD",
+        "name" : "Liberal Democrat",
+        "shortName" : "Lib Dem",
+        "altName" : "Democratiaid Rhyddfrydol",
+        "altCode" : "DRh"
+      },
+      "firstName" : "Richard",
+      "lastName" : "Dickson",
+      "fullName" : "Richard Dickson"
+    },
+    "votesNow" : 4913,
+    "shareNow" : 10.0694799,
+    "shareChange" : -17.5842953
+  }, {
+    "candidate" : {
+      "candidateId" : 3830,
+      "party" : {
+        "code" : "GRN",
+        "name" : "Green Party",
+        "shortName" : "Green",
+        "altName" : "Plaid Werdd",
+        "altCode" : "GRDd"
+      },
+      "firstName" : "Rob",
+      "lastName" : "Ballantyne",
+      "fullName" : "Rob Ballantyne"
+    },
+    "votesNow" : 1956,
+    "shareNow" : 4.00893593,
+    "shareChange" : 2.836133
+  }, {
+    "candidate" : {
+      "candidateId" : 3842,
+      "party" : {
+        "code" : "MRLP",
+        "name" : "Monster Raving Loony Party",
+        "shortName" : "MRLP"
+      },
+      "firstName" : "Nick",
+      "lastName" : "Green",
+      "fullName" : "Nick Green"
+    },
+    "votesNow" : 370,
+    "shareNow" : 0.758337021,
+    "shareChange" : 0.758337021
+  }, {
+    "candidate" : {
+      "candidateId" : 5544,
+      "party" : {
+        "code" : "DD",
+        "name" : "Digital Democracy",
+        "shortName" : "Digital Dem"
+      },
+      "firstName" : "Jon",
+      "lastName" : "Foster-Smith",
+      "fullName" : "Jon Foster-Smith"
+    },
+    "votesNow" : 139,
+    "shareNow" : 0.284889013,
+    "shareChange" : 0.284889013
   } ]
 } ]
